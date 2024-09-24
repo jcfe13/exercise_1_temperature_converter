@@ -10,3 +10,4 @@ conversion_type = input("\nSelect the number for conversion type: ")
 # 4. Create the conditions
 if conversion_type == "1":
     result = (temperature * 9 / 5) + 32  # formula to convert °C to °F
+    print(f"\nThe conversion of {temperature}°C to Fahrenheit is: {round(result, 2)}°F")
