@@ -13,3 +13,4 @@ if conversion_type == "1":
     print(f"\nThe conversion of {temperature}°C to Fahrenheit is: {round(result, 2)}°F")
 elif conversion_type == "2":
     result = (temperature - 32) * 5 / 9  # formula to convert °F to °C
+    print(f"\nThe conversion of {temperature}°F to Celsius is: {round(result, 2)}°C")
