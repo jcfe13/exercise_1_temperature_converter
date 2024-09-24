@@ -8,3 +8,4 @@ print("2. Fahrenheit to Celsius")
 # 3. Ask the user to select the conversion types
 conversion_type = input("\nSelect the number for conversion type: ")
 # 4. Create the conditions
+if conversion_type == "1":
