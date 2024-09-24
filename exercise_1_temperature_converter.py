@@ -17,3 +17,4 @@ elif conversion_type == "2":
     result = (temperature - 32) * 5 / 9  # formula to convert °F to °C
     print(f"\nThe conversion of {temperature}°F to Celsius is: {round(result, 2)}°C")
 else:
+    print("\n\033[91mInvalid character/number!\033[0m")  # show error message for invalid input
